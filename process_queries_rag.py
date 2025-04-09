@@ -11,9 +11,9 @@ EMBEDDING_ENDPOINT = "http://localhost:6006/embed"
 RETRIEVAL_ENDPOINT = "http://localhost:7000/v1/retrieval"
 COMPLETION_ENDPOINT = "http://localhost:9000/v1/chat/completions"
 INPUT_FILE = "test_queries.csv"
-OUTPUT_FILE = "llama3_immunization_v4_rag_chunk.csv"
+OUTPUT_FILE = "llama3_immunization_v2_rag_node.csv"
 GRAPH_NAME = "GRAPH"
-SEARCH_START = "chunk"
+SEARCH_START = "node"
 
 def get_embeddings(query):
     """Get embeddings for the query"""
