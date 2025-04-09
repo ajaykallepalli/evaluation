@@ -1,0 +1,50 @@
+
+Processing query 1: One of my vaccines was exposed to temperature below zero and I would like to determine whether it has been damaged. Is there any test I could do?
+Total processing time: 4.785 seconds
+----------------------------------------
+
+Processing query 2: I need to set up a refrigerator at my health facility to keep my vaccines cool. However, it seems that the refregirator does not work properly. It is connected to the power supply and electricity is stable. I am not sure what the issue might be. Can you advise?
+Total processing time: 10.775 seconds
+----------------------------------------
+
+Processing query 3: I am administering Japanese encephalitis vaccine in my community. Are there any patient groups that should abstain from vaccination?
+Total processing time: 2.632 seconds
+----------------------------------------
+
+Processing query 4: I am administering Japanese encephalitis vaccine in my community, and I have a couple of patients who suffer from epilepsy. Should I vaccinate them?
+Total processing time: 6.174 seconds
+----------------------------------------
+
+Processing query 5: I work for our country's immunization program. How can I find out which district or community should start first? (simple language, specific question)
+Total processing time: 2.361 seconds
+----------------------------------------
+
+Processing query 6: Our community has 15000 people, but the only vaccinator is me! How to manage the following session task? (simple, general)
+Total processing time: 12.807 seconds
+----------------------------------------
+
+Processing query 7: As a pediatric vaccine provider, I frequently encounter parental hesitancy and mistrust towards childhood vaccinations. What are effective strategies to communicate with them to address these concerns? (complex, general)
+Total processing time: 9.360 seconds
+----------------------------------------
+
+Processing query 8: How can the validity of a batch of vials with complete labeling, excluding expiration dates, be verified? (complex, specific)
+Total processing time: 4.139 seconds
+----------------------------------------
+
+Processing query 9: Can I give a child Yellow fever vaccine if he/she is infected by HIV? (simple, specific)
+Total processing time: 4.938 seconds
+----------------------------------------
+
+Processing query 10: can i use alchol to clean skin befor injecting vaccine? using AD syringe (simple, specific, poorly-structured)
+Total processing time: 3.966 seconds
+----------------------------------------
+
+Processing query 11: How to calculate the vaccine usage rate for a vaccination period? (simple, specific)
+Total processing time: 3.433 seconds
+----------------------------------------
+
+Processing query 12: In the absence of a designated safety box, what are the appropriate protocols for the disposal of vaccine-related waste materials? (complex, general)
+Total processing time: 4.762 seconds
+----------------------------------------
+
+Processing complete. Results saved to llama3_chatqna_node.csv

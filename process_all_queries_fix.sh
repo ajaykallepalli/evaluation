@@ -24,7 +24,7 @@ while IFS=, read -r document query desired_output observations other_notes; do
     desired_output="${desired_output//\"/}"
     echo "Processing query $ID: $query"
     # Create JSON payload
-    PAYLOAD="{\"model\": \"$LLM_MODEL_ID\", \"messages\": [{\"role\": \"system\", \"content\": \"Use the following document as context to answer the user query: $document\"}, {\"role\": \"user\", \"content\": \"$query\"}]}"
+    PAYLOAD="{\"model\": \"$LLM_MODEL_ID\", \"messages\": [{\"role\": \"system\", \"content\": \"You are a helpful AI assistant. Please answer the following question to the best of your ability.\"}, {\"role\": \"user\", \"content\": \"$query\"}]}"
     # Format curl command for output
     CURL_CMD="curl -s $ENDPOINT -H \"Content-Type: application/json\" -d '$PAYLOAD'"
     # Run the curl command and time it

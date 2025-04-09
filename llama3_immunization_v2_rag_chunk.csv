@@ -1,0 +1,1 @@
+id,timestamp,document,query,embedding_time,embedding_response,retrieval_time,retrieval_response,retrieved_context,completion_time,completion_response,llm_response,total_time,desired_output
